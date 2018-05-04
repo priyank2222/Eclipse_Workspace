@@ -1,0 +1,9 @@
+package QueuesUsingStacks;
+
+public class Queue<E> {
+
+  public static void main(String[] args) {
+
+  }
+
+}

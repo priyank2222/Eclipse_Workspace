@@ -1,0 +1,48 @@
+package QueuesUsingStacks;
+
+import StacksUsingArray.*;
+
+public class Queue<E> {
+  
+  private final static int DEFAULT = 5;
+  private int size;
+  Stack<E> stack1;
+  Stack<E> stack2;
+  
+  public Queue(int size)
+  {
+    this.size = size;
+    stack1 = new Stack<>(size);
+    stack2 = new Stack<>(size);
+  }
+  
+  public Queue()
+  {
+    this.size = DEFAULT;
+    stack1 = new Stack<>(DEFAULT);
+    stack2 = new Stack<>(DEFAULT);
+  }
+  
+  public void enqueue(E item)
+  {
+    try {
+      stack1.push(item);
+    } catch (FullStackException e) {System.out.println("Stack is Full!!!!");}
+  }
+  
+  public E dequeue()
+  {
+    while(!stack1.isEmpty())
+    {
+      try {
+        stack2.push(stack1.pop());
+      } catch (FullStackException | EmptyStackException e) {e.printStackTrace();}
+    }
+    return stack2.pop();
+  }
+
+  public static void main(String[] args) {
+
+  }
+
+}

@@ -1,0 +1,24 @@
+package StacksUsingArray;
+
+public class Stack {
+  
+  private final static int DEFAULT_SIZE = 5;
+  private int top;
+  private int[] items;
+  
+  public Stack(int size)
+  {
+    items = new int[];
+  }
+  
+  public Stack()
+  {
+    
+  }
+
+  public static void main(String[] args) {
+    
+
+  }
+
+}

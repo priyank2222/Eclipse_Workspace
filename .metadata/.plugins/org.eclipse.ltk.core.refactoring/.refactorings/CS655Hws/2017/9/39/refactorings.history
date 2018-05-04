@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;pa1&apos; to &apos;pa1part1&apos;&#x0A;- Original project: &apos;CS655Hws&apos;&#x0A;- Original element: &apos;CS655Hws/src/pa1&apos;&#x0A;- Renamed element: &apos;CS655Hws/src/pa1part1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;pa1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;pa1" name="pa1part1" qualified="false" references="true" stamp="1506790463183" textual="false" version="1.0"/>
+</session>

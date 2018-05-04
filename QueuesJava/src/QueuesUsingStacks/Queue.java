@@ -1,0 +1,22 @@
+package QueuesUsingStacks;
+
+import QueuesUsingStacks.*;
+
+public class Queue <E>{
+  
+  private final static int DEFAULT = 5;
+  private int size;
+  
+  public Queue(int size)
+  {
+    Stack<Integer> stack1 = new Stack<>(size);
+    Stack<Integer> stack2 = new Stack<>(size);
+    this.size = size;
+  }
+
+  public static void main(String[] args) {
+    
+    
+  }
+
+}

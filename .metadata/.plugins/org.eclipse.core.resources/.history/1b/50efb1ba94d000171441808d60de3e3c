@@ -1,0 +1,20 @@
+package StacksUsingLinkedList;
+
+public class LinkedList {
+  
+  private Node head;
+  private Node tail;
+  
+  public class Node<E>
+  {
+    private int data;
+    Node next;
+    
+    public Node(int data)
+    {
+      this.data = data;
+      next = null;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+package LinkedList;
+
+public class LinkedListAlgorithms {
+  
+  
+  public static void printElementsOfLinkedList(Node head)
+  {
+    while(head != null)
+    {
+      System.out.println(head.data);
+      head = head.next;
+    }
+  }
+  
+  public static void LinkedListUsingRecursion(Node head)
+  {
+    if(head == null) return;
+    System.out.println(head.data);
+    LinkedListUsingRecursion(head.next);
+  }
+
+}

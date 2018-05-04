@@ -1,0 +1,46 @@
+package StacksUsingArray;
+
+public class Stack {
+  
+  private final static int DEFAULT_SIZE = 5;
+  private int top;
+  private int[] items;
+  private int size;
+  
+  public Stack(int size)
+  {
+    items = new int[size];
+    top = -1;
+    this.size = size;
+  }
+  
+  public Stack()
+  {
+    items = new int[DEFAULT_SIZE];
+    top = -1;
+    this.size = DEFAULT_SIZE;
+  }
+  
+  public void push(int item) throws FullStackException
+  {
+    if(top == this.size - 1)
+      throw new FullStackException();
+    top++;
+    items[top] = item;
+  }
+  
+  public int pop() throws EmptyStackException
+  {
+    if(top == -1)
+      throw new EmptyStackException();
+    int item = items[top];
+    top--;
+    return item;
+  }
+  
+  public boolean isEmpty()
+  {
+    
+    
+  }
+}

@@ -1,0 +1,12 @@
+package QueuesUsingStacks;
+
+public class Queue<E> {
+  
+  private final static int DEFAULT = 5;
+  private int size;
+
+  public static void main(String[] args) {
+
+  }
+
+}

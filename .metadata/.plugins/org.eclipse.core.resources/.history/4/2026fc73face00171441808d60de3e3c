@@ -1,0 +1,24 @@
+package AlgorithmsUsingStacks;
+
+import StacksUsingArray.*;
+
+public class StackAlgorithms {
+  
+  
+  public static boolean parenthesisMatching(String str)
+  {
+    Stack stack = new Stack(str.length());
+    String left = "({[";
+    String right = ")}]";
+    return true;
+  }
+
+  public static void main(String[] args) {
+    
+    String str = "())()(())(()";
+    
+    System.out.println(StackAlgorithms.parenthesisMatching(str));
+
+  }
+
+}

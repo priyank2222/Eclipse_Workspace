@@ -1,0 +1,21 @@
+package SortingAlgorithms;
+
+public class SortingAlgorithms {
+  
+  public static int[] bubbleSort(int[] array)
+  {
+    int lastPosition = array.length;
+    
+    while(lastPosition > 0)
+    {
+      int position = 0;
+      
+      while(position < lastPosition)
+      {
+        
+      }
+    }
+    return array;
+  }
+
+}

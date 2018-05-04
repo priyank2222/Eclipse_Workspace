@@ -1,0 +1,5 @@
+package StacksUsingArray;
+
+public class FullStackException {
+
+}

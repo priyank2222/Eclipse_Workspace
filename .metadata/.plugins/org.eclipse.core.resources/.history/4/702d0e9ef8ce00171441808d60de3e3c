@@ -1,0 +1,9 @@
+package AlgorithmsUsingStacks;
+
+public class StackAlgorithms {
+
+  public static void main(String[] args) {
+
+  }
+
+}

@@ -1,0 +1,40 @@
+package SortingAlgorithms;
+
+public class SortingAlgorithms {
+  
+  public static int[] bubbleSort(int[] array)
+  {
+    int lastPosition = array.length - 1;
+    
+    while(lastPosition > 0)
+    {
+      int position = 0;
+      
+      while(position < lastPosition)
+      {
+        if(array[position] > array[position + 1])
+        {
+          int swap = array[position];
+          array[position] = array[position + 1];
+          array[position + 1] = swap;
+        }
+        position++;
+      }
+      lastPosition--;
+    }
+    return array;
+  }
+  
+  public static int[] selectionSort(int[] array)
+  {
+    int lastPosition = -1;
+    
+    while(lastPosition < array.length)
+    {
+      int position = lastPosition + 1;
+      
+    }
+    return array;
+  }
+
+}
